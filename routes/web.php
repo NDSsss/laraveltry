@@ -14,3 +14,7 @@
 Route::get('/', function () {
     echo('Base Prepared with announces!!!');
 });
+
+Route::group(['namespace'=>'School','prefix'=>'school'], function (){
+    Route::resource('teacher','TeacherController')->names('school.teacher');
+});

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="804b1b7f-50d0-4db0-adac-ec847316c63b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/School/TeacherController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/school/teacher/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +160,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\tangonoches\resources\views\school" />
       <recent name="C:\xampp\htdocs\tangonoches\app\Models" />
     </key>
   </component>
@@ -199,7 +202,7 @@
       <workItem from="1579311883234" duration="8218000" />
       <workItem from="1579355727324" duration="2789000" />
       <workItem from="1579367671164" duration="26470000" />
-      <workItem from="1579453733664" duration="9598000" />
+      <workItem from="1579453733664" duration="11362000" />
     </task>
     <servers />
   </component>
@@ -231,6 +234,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="248" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579385823005" />
+    <state x="706" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579475374092">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="706" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579475374092" />
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1579215012343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -255,10 +262,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1217" y="432" width="446" height="265" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1579316663088" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1579324971295">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1579475628729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579324971295" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579475628729" />
     <state x="1220" y="305" key="FileChooserDialogImpl" timestamp="1579400554228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -287,6 +294,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579367655264" />
+    <state x="817" y="223" key="VCS.ChangeListViewerDialog" timestamp="1579475622792">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="817" y="223" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579475622792" />
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579461988207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
