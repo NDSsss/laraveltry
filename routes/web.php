@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    echo('Base Prepared!!!');
+    echo('Base Prepared with announces!!!');
 });

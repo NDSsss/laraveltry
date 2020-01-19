@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="804b1b7f-50d0-4db0-adac-ec847316c63b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/EventAnnounceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LessonAnnounceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/EventAnnounce.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/LessonAnnounce.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/EventAnnounceFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/LessonAnnounceFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000013_create_event_announces_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000014_create_lesson_announces_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/EventAnnounceSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/LessonAnnounceSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/0000_00_00_000005_create_groups_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000005_create_groups_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/GroupsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/GroupsSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +184,7 @@
       <workItem from="1579311883234" duration="8218000" />
       <workItem from="1579355727324" duration="2789000" />
       <workItem from="1579367671164" duration="26470000" />
-      <workItem from="1579453733664" duration="6193000" />
+      <workItem from="1579453733664" duration="7017000" />
     </task>
     <servers />
   </component>
