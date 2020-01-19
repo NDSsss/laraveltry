@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="804b1b7f-50d0-4db0-adac-ec847316c63b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/EventAnnounceController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LessonAnnounceController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/EventAnnounce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/LessonAnnounce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/EventAnnounceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/LessonAnnounceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000013_create_event_announces_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000014_create_lesson_announces_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/EventAnnounceSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/LessonAnnounceSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/0000_00_00_000005_create_groups_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000005_create_groups_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/GroupsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/GroupsSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,17 +169,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:tango_api@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:tango_api@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@73ad0b5" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -193,7 +195,8 @@
       <workItem from="1579305661974" duration="3245000" />
       <workItem from="1579311883234" duration="8218000" />
       <workItem from="1579355727324" duration="2789000" />
-      <workItem from="1579367671164" duration="26320000" />
+      <workItem from="1579367671164" duration="26470000" />
+      <workItem from="1579453733664" duration="6193000" />
     </task>
     <servers />
   </component>
@@ -269,14 +272,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1292" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579385875476" />
+    <state x="553" y="230" key="RollbackChangesDialog" timestamp="1579467883724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579467883724" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1579367655264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579367655264" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579367925527">
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579461988207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579367925527" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579461988207" />
     <state x="177" y="118" width="606" height="804" key="find.popup" timestamp="1578445960725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
