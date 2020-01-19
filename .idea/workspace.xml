@@ -2,37 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="804b1b7f-50d0-4db0-adac-ec847316c63b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketEventTypeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/TicketEventType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/TicketEventTypeFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000008_lessons_teachers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000010_create_ticket_event_types_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000012_students_ticket_types_lessons_left.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/LessonsSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/LessonsStudentsSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/LessonsTeachersSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/StudentsTicketTypesLessonsLeftSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/TeachersSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/TicketCountTypesSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/TicketEventTypeSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/TicketsSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/TicketType.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TicketCountType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/000_00_00_000001_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000002_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_08_235123_create_students_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000003_create_students_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_211439_create_ticket_types_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000009_create_ticket_count_types_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_211950_create_teachers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000004_create_teachers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_214948_create_groups_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000005_create_groups_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_214949_create_lessons_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000006_create_lessons_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_221328_create_tickets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000011_create_tickets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_18_004201_lessons_students.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000007_lessons_students.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/LessonsStudentsRelationsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/GroupsSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +193,7 @@
       <workItem from="1579305661974" duration="3245000" />
       <workItem from="1579311883234" duration="8218000" />
       <workItem from="1579355727324" duration="2789000" />
-      <workItem from="1579367671164" duration="26054000" />
+      <workItem from="1579367671164" duration="26320000" />
     </task>
     <servers />
   </component>
@@ -280,10 +249,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579324971295" />
-    <state x="1220" y="305" key="FileChooserDialogImpl" timestamp="1579316658635">
+    <state x="1220" y="305" key="FileChooserDialogImpl" timestamp="1579400554228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="305" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579316658635" />
+    <state x="1220" y="305" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579400554228" />
     <state width="1292" height="277" key="GridCell.Tab.0.bottom" timestamp="1579385875476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
