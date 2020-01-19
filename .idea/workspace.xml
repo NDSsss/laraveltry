@@ -2,30 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="804b1b7f-50d0-4db0-adac-ec847316c63b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Group.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/JournalEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Lesson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Teacher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Ticket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/TicketType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/LessonsStudentsRelationsFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_08_235110_create_journal_events_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_08_235123_create_students_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_15_211439_create_ticket_types_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_15_211950_create_teachers_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_15_214948_create_groups_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_15_214949_create_lessons_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_15_221328_create_tickets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_18_004201_lessons_students.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/LessonsStudentsRelationsSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/StudentsSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tangonoches.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketEventTypeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/TicketEventType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/TicketEventTypeFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000008_lessons_teachers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000010_create_ticket_event_types_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000012_students_ticket_types_lessons_left.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/LessonsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/LessonsStudentsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/LessonsTeachersSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/StudentsTicketTypesLessonsLeftSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/TeachersSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/TicketCountTypesSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/TicketEventTypeSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/TicketsSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/TicketType.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TicketCountType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/000_00_00_000001_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000002_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_08_235123_create_students_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000003_create_students_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_211439_create_ticket_types_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000009_create_ticket_count_types_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_211950_create_teachers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000004_create_teachers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_214948_create_groups_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000005_create_groups_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_214949_create_lessons_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000006_create_lessons_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_15_221328_create_tickets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000011_create_tickets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_18_004201_lessons_students.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000007_lessons_students.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/LessonsStudentsRelationsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/GroupsSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +45,20 @@
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,10 +165,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -164,7 +188,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:tango_api@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:tango_api@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@73ad0b5" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -189,6 +223,8 @@
       <workItem from="1579293569366" duration="595000" />
       <workItem from="1579305661974" duration="3245000" />
       <workItem from="1579311883234" duration="8218000" />
+      <workItem from="1579355727324" duration="2789000" />
+      <workItem from="1579367671164" duration="26054000" />
     </task>
     <servers />
   </component>
@@ -212,6 +248,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="177" key="#SQL_Dialects" timestamp="1579385460596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1579385460596" />
+    <state x="752" y="248" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579385823005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="248" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579385823005" />
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1579215012343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -220,6 +264,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579305753282" />
+    <state x="620" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579395382115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="620" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579395382115" />
+    <state x="644" y="174" width="646" height="692" key="#phpunit.xml" timestamp="1579362442889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="174" width="646" height="692" key="#phpunit.xml/0.0.1920.1040@0.0.1920.1040" timestamp="1579362442889" />
     <state x="1217" y="432" width="446" height="265" key="ComposerInitDialogKey" timestamp="1579316663088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,26 +284,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="305" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579316658635" />
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1578535063801">
+    <state width="1292" height="277" key="GridCell.Tab.0.bottom" timestamp="1579385875476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578535063801" />
-    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1578535063801">
+    <state width="1292" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579385875476" />
+    <state width="1292" height="277" key="GridCell.Tab.0.center" timestamp="1579385875476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578535063801" />
-    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1578535063801">
+    <state width="1292" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579385875476" />
+    <state width="1292" height="277" key="GridCell.Tab.0.left" timestamp="1579385875476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578535063801" />
-    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1578535063801">
+    <state width="1292" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579385875476" />
+    <state width="1292" height="277" key="GridCell.Tab.0.right" timestamp="1579385875476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578535063801" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579311891018">
+    <state width="1292" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579385875476" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1579367655264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579311891018" />
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579367655264" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579367925527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579367925527" />
     <state x="177" y="118" width="606" height="804" key="find.popup" timestamp="1578445960725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

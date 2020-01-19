@@ -17,16 +17,16 @@ class CreateStudentsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('phone')->unique();
-            $table->string('vk_profile_link');
-            $table->bigInteger('vk_profile_id')->unique();
-            $table->string('facebook_profile_link');
-            $table->bigInteger('facebook_profile_id')->unique();
-            $table->string('instagram_profile_link');
-            $table->bigInteger('instagram_profile_id')->unique();
-            $table->string('photo_link');
-            $table->string('extra_info');
-            $table->string('push_token');
-            $table->integer('barcode_id')->unique();
+            $table->string('vk_profile_link')->nullable();
+            $table->bigInteger('vk_profile_id')->unique()->nullable();
+            $table->string('facebook_profile_link')->nullable();
+            $table->bigInteger('facebook_profile_id')->nullable()->unique();
+            $table->string('instagram_profile_link')->nullable();
+            $table->bigInteger('instagram_profile_id')->nullable()->unique();
+            $table->string('photo_link')->nullable();
+            $table->string('extra_info')->nullable();
+            $table->string('push_token')->nullable();
+            $table->integer('barcode_id')->unique()->nullable();
 
         });
     }
